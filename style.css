@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;}
+
+.main a{
+    /* padding: 6px; */
+    margin: 30px 10px 0px 30px;
+    text-decoration: none;
+    color: black;
+}
+.main img{
+    margin: 21px 30px 0px 30px;
+
+}
+.container{
+    position: relative;
+}
+.list ul{
+    display: flex;
+    margin-left: 28%;
+}
+.list li{
+list-style: none;
+/* margin: 1%; */
+margin-left: 5%;
+font-weight: bold;
+}
+.main2{
+/* padding-left: 10%; */
+background-color: antiquewhite;
+}
+.card img{
+    margin: 10px;
+    border-width: 4px;
+    border-radius: 30px;
+}
+.card2{
+    display: inline-block;
+    margin-left: 6.5%;
+}
+.list2 li{
+    display: inline-block;
+    
+    margin-left: 6.6%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.list3 li{
+    display: inline-block;
+    
+    /* margin-left: 2%; */
+    font-weight: bold;
+    font-size: 15px;
+    margin: 19px;
+}
+.list3 ul{
+    margin-left: 28%;
+}
+/* .list3{
+    background-image:  url(https://images.samsung.com/is/image/samsung/assets/pk/Premier-Frame-banner-1440x810-No-text.jpg?$1440_810_JPG$);
+} */
+.column1 li{
+    list-style: none;
+    color: grey;
+    margin-left: 10%;
+
+}
+.footer{
+    margin-top: 1px;
+    /* margin-left: 2%; */
+    display: flex;
+    border: 1px solid grey;
+border-right: none;
+}
+.column1 h4{
+    margin-top: 20px;
+margin-left: 10%;
+}
+.column1{
+    border: .5px solid grey;
+    width: 25%;
+    /* border-right-width: 130%; */
+}
+.column2{
+    border: .5px solid grey;
+    width: 25%;
+}
+.column3{
+    border: .5px solid grey;
+    width: 25%;
+}
+.column4{
+    border: .5px solid grey;
+    width: 25%;
+}
+
+.column2 li{
+    list-style: none;
+    color: grey;
+    margin-left: 20px;
+}
+.column2 h4{
+    margin-left: 20px ;
+    margin-top: 20px;
+
+}
+.column3 li{
+    list-style: none;
+    color: grey;
+    margin-left: 40px;
+}
+.column3 h4{
+    margin-left: 40px ;
+    margin-top: 20px;
+}
+.column4 h4{
+    margin-left: 40px ;
+    margin-top: 20px;
+
+}
+.column4 li{
+    list-style: none;
+    color: grey;
+    margin-left: 40px;
+}
+.main a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border-width: 10px;
+    width: 120px;
+    text-align: center;
+    height: 20px;
+}
